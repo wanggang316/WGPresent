@@ -14,6 +14,8 @@
 		D61F7FD41AAD37E400913A82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61F7FD31AAD37E400913A82 /* Images.xcassets */; };
 		D61F7FD71AAD37E400913A82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D61F7FD51AAD37E400913A82 /* LaunchScreen.xib */; };
 		D61F7FE31AAD37E400913A82 /* WGPresentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F7FE21AAD37E400913A82 /* WGPresentTests.m */; };
+		D61F7FEE1AAD384500913A82 /* WGPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F7FED1AAD384500913A82 /* WGPopoverView.m */; };
+		D61F7FF11AAD470000913A82 /* WGAlertTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F7FF01AAD470000913A82 /* WGAlertTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		D61F7FDC1AAD37E400913A82 /* WGPresentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGPresentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61F7FE11AAD37E400913A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D61F7FE21AAD37E400913A82 /* WGPresentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGPresentTests.m; sourceTree = "<group>"; };
+		D61F7FEC1AAD384500913A82 /* WGPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPopoverView.h; sourceTree = "<group>"; };
+		D61F7FED1AAD384500913A82 /* WGPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPopoverView.m; sourceTree = "<group>"; };
+		D61F7FEF1AAD470000913A82 /* WGAlertTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGAlertTableView.h; sourceTree = "<group>"; };
+		D61F7FF01AAD470000913A82 /* WGAlertTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGAlertTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				D61F7FD31AAD37E400913A82 /* Images.xcassets */,
 				D61F7FD51AAD37E400913A82 /* LaunchScreen.xib */,
 				D61F7FC61AAD37E400913A82 /* Supporting Files */,
+				D61F7FEC1AAD384500913A82 /* WGPopoverView.h */,
+				D61F7FED1AAD384500913A82 /* WGPopoverView.m */,
+				D61F7FEF1AAD470000913A82 /* WGAlertTableView.h */,
+				D61F7FF01AAD470000913A82 /* WGAlertTableView.m */,
 			);
 			path = WGPresent;
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				D61F7FCF1AAD37E400913A82 /* ViewController.m in Sources */,
 				D61F7FCC1AAD37E400913A82 /* AppDelegate.m in Sources */,
+				D61F7FEE1AAD384500913A82 /* WGPopoverView.m in Sources */,
+				D61F7FF11AAD470000913A82 /* WGAlertTableView.m in Sources */,
 				D61F7FC91AAD37E400913A82 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

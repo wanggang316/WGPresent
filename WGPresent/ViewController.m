@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "WGPopoverView.h"
+#import "WGAlertTableView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) WGPopoverView *popoverView;
+@property (nonatomic, strong) WGAlertTableView *contentView;
 
 @end
 
@@ -16,7 +21,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+
+- (WGPopoverView *)popoverView {
+    if (!_popoverView) {
+        _popoverView = [[WGPopoverView alloc]init];
+        _popoverView.contentView = self.contentView;
+    }
+    return _popoverView;
+}
+
+- (WGAlertTableView *)contentView {
+    if (!_contentView) {
+        _contentView = [[WGAlertTableView alloc]initWithFrame:CGRectMake(100, 100, 100, 300)];
+    }
+    return _contentView;
+}
+
+
+- (IBAction)present:(id)sender {
+    
+    
+    [self.popoverView presentPopoverView];
+    
 }
 
 - (void)didReceiveMemoryWarning {
