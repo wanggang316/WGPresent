@@ -14,8 +14,13 @@
 		D61F7FD41AAD37E400913A82 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D61F7FD31AAD37E400913A82 /* Images.xcassets */; };
 		D61F7FD71AAD37E400913A82 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D61F7FD51AAD37E400913A82 /* LaunchScreen.xib */; };
 		D61F7FE31AAD37E400913A82 /* WGPresentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F7FE21AAD37E400913A82 /* WGPresentTests.m */; };
-		D61F7FEE1AAD384500913A82 /* WGPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F7FED1AAD384500913A82 /* WGPopoverView.m */; };
-		D61F7FF11AAD470000913A82 /* WGAlertTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F7FF01AAD470000913A82 /* WGAlertTableView.m */; };
+		D693F4C01AB6CB4B00C96630 /* WGPopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D693F4BF1AB6CB4B00C96630 /* WGPopoverView.m */; };
+		D693F4C71AB6CB5400C96630 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = D693F4C31AB6CB5400C96630 /* Cell.m */; };
+		D693F4C81AB6CB5400C96630 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D693F4C41AB6CB5400C96630 /* Cell.xib */; };
+		D693F4C91AB6CB5400C96630 /* WGAlertTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D693F4C61AB6CB5400C96630 /* WGAlertTableView.m */; };
+		D693F4CC1AB6CBBA00C96630 /* WGCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D693F4CB1AB6CBBA00C96630 /* WGCollectionView.m */; };
+		D693F4D01AB6CBDA00C96630 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D693F4CE1AB6CBDA00C96630 /* CollectionCell.m */; };
+		D693F4D11AB6CBDA00C96630 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D693F4CF1AB6CBDA00C96630 /* CollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +47,19 @@
 		D61F7FDC1AAD37E400913A82 /* WGPresentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WGPresentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D61F7FE11AAD37E400913A82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D61F7FE21AAD37E400913A82 /* WGPresentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WGPresentTests.m; sourceTree = "<group>"; };
-		D61F7FEC1AAD384500913A82 /* WGPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPopoverView.h; sourceTree = "<group>"; };
-		D61F7FED1AAD384500913A82 /* WGPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPopoverView.m; sourceTree = "<group>"; };
-		D61F7FEF1AAD470000913A82 /* WGAlertTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGAlertTableView.h; sourceTree = "<group>"; };
-		D61F7FF01AAD470000913A82 /* WGAlertTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGAlertTableView.m; sourceTree = "<group>"; };
+		D693F4BE1AB6CB4B00C96630 /* WGPopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGPopoverView.h; sourceTree = "<group>"; };
+		D693F4BF1AB6CB4B00C96630 /* WGPopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGPopoverView.m; sourceTree = "<group>"; };
+		D693F4C21AB6CB5400C96630 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		D693F4C31AB6CB5400C96630 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		D693F4C41AB6CB5400C96630 /* Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		D693F4C51AB6CB5400C96630 /* WGAlertTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGAlertTableView.h; sourceTree = "<group>"; };
+		D693F4C61AB6CB5400C96630 /* WGAlertTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGAlertTableView.m; sourceTree = "<group>"; };
+		D693F4CA1AB6CBBA00C96630 /* WGCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCollectionView.h; sourceTree = "<group>"; };
+		D693F4CB1AB6CBBA00C96630 /* WGCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCollectionView.m; sourceTree = "<group>"; };
+		D693F4CD1AB6CBDA00C96630 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		D693F4CE1AB6CBDA00C96630 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		D693F4CF1AB6CBDA00C96630 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		D693F4D21AB6D69A00C96630 /* WGViewsEventDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGViewsEventDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,8 @@
 		D61F7FC51AAD37E400913A82 /* WGPresent */ = {
 			isa = PBXGroup;
 			children = (
+				D693F4C11AB6CB5400C96630 /* demoViews */,
+				D693F4BD1AB6CB1800C96630 /* WGPopoverView */,
 				D61F7FCA1AAD37E400913A82 /* AppDelegate.h */,
 				D61F7FCB1AAD37E400913A82 /* AppDelegate.m */,
 				D61F7FCD1AAD37E400913A82 /* ViewController.h */,
@@ -95,10 +111,6 @@
 				D61F7FD31AAD37E400913A82 /* Images.xcassets */,
 				D61F7FD51AAD37E400913A82 /* LaunchScreen.xib */,
 				D61F7FC61AAD37E400913A82 /* Supporting Files */,
-				D61F7FEC1AAD384500913A82 /* WGPopoverView.h */,
-				D61F7FED1AAD384500913A82 /* WGPopoverView.m */,
-				D61F7FEF1AAD470000913A82 /* WGAlertTableView.h */,
-				D61F7FF01AAD470000913A82 /* WGAlertTableView.m */,
 			);
 			path = WGPresent;
 			sourceTree = "<group>";
@@ -127,6 +139,33 @@
 				D61F7FE11AAD37E400913A82 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D693F4BD1AB6CB1800C96630 /* WGPopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				D693F4BE1AB6CB4B00C96630 /* WGPopoverView.h */,
+				D693F4BF1AB6CB4B00C96630 /* WGPopoverView.m */,
+			);
+			path = WGPopoverView;
+			sourceTree = "<group>";
+		};
+		D693F4C11AB6CB5400C96630 /* demoViews */ = {
+			isa = PBXGroup;
+			children = (
+				D693F4C21AB6CB5400C96630 /* Cell.h */,
+				D693F4C31AB6CB5400C96630 /* Cell.m */,
+				D693F4C41AB6CB5400C96630 /* Cell.xib */,
+				D693F4C51AB6CB5400C96630 /* WGAlertTableView.h */,
+				D693F4C61AB6CB5400C96630 /* WGAlertTableView.m */,
+				D693F4CA1AB6CBBA00C96630 /* WGCollectionView.h */,
+				D693F4CB1AB6CBBA00C96630 /* WGCollectionView.m */,
+				D693F4CD1AB6CBDA00C96630 /* CollectionCell.h */,
+				D693F4CE1AB6CBDA00C96630 /* CollectionCell.m */,
+				D693F4CF1AB6CBDA00C96630 /* CollectionCell.xib */,
+				D693F4D21AB6D69A00C96630 /* WGViewsEventDelegate.h */,
+			);
+			path = demoViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D693F4D11AB6CBDA00C96630 /* CollectionCell.xib in Resources */,
 				D61F7FD21AAD37E400913A82 /* Main.storyboard in Resources */,
+				D693F4C81AB6CB5400C96630 /* Cell.xib in Resources */,
 				D61F7FD71AAD37E400913A82 /* LaunchScreen.xib in Resources */,
 				D61F7FD41AAD37E400913A82 /* Images.xcassets in Resources */,
 			);
@@ -229,11 +270,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D693F4C91AB6CB5400C96630 /* WGAlertTableView.m in Sources */,
+				D693F4C71AB6CB5400C96630 /* Cell.m in Sources */,
 				D61F7FCF1AAD37E400913A82 /* ViewController.m in Sources */,
+				D693F4CC1AB6CBBA00C96630 /* WGCollectionView.m in Sources */,
 				D61F7FCC1AAD37E400913A82 /* AppDelegate.m in Sources */,
-				D61F7FEE1AAD384500913A82 /* WGPopoverView.m in Sources */,
-				D61F7FF11AAD470000913A82 /* WGAlertTableView.m in Sources */,
+				D693F4C01AB6CB4B00C96630 /* WGPopoverView.m in Sources */,
 				D61F7FC91AAD37E400913A82 /* main.m in Sources */,
+				D693F4D01AB6CBDA00C96630 /* CollectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WGPresent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -366,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WGPresent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +470,7 @@
 				D61F7FE81AAD37E400913A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D61F7FE91AAD37E400913A82 /* Build configuration list for PBXNativeTarget "WGPresentTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +479,7 @@
 				D61F7FEB1AAD37E400913A82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

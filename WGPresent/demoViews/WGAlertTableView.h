@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WGViewsEventDelegate.h"
 
 @interface WGAlertTableView : UITableView
 
+@property (nonatomic, strong) NSArray *items;
+
+@property (nonatomic, weak) id<WGViewsEventDelegate> eventDelegate;
+
 @end
+

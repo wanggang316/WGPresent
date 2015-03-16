@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14D87h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="gTV-IL-0wX" customClass="CollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="294" height="71"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="294" height="71"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywu-vS-7Gx">
+                        <rect key="frame" x="0.0" y="0.0" width="294" height="71"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Ywu-vS-7Gx" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="CUH-z1-uwq"/>
+                <constraint firstAttribute="trailing" secondItem="Ywu-vS-7Gx" secondAttribute="trailing" id="Llz-U1-gQB"/>
+                <constraint firstItem="Ywu-vS-7Gx" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VtB-DS-GeK"/>
+                <constraint firstAttribute="bottom" secondItem="Ywu-vS-7Gx" secondAttribute="bottom" id="mEq-9f-KRm"/>
+            </constraints>
+            <size key="customSize" width="294" height="71"/>
+            <connections>
+                <outlet property="titleLabel" destination="Ywu-vS-7Gx" id="cOz-t0-4lb"/>
+            </connections>
+            <point key="canvasLocation" x="550" y="304.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
